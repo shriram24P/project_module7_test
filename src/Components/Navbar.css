@@ -1,0 +1,78 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+    width: 1437px;
+    margin: auto 30px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar-pages ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color: #252b42;
+    width: 187px;
+    cursor: pointer;
+  }
+  
+  .navbar-pages ul li {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #737373;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-buttons button {
+    margin: 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #23a6f0;
+    cursor: pointer;
+  }
+  
+  .navbar-buttons span {
+    padding-left: 7px;
+  }
+  
+  .navbar-button-count span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    vertical-align: text-top;
+  }
